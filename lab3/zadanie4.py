@@ -70,12 +70,12 @@ for B in Bases:
 if (len(X) == 0):
 	print "INFEASIBLE"
 else:
-	j = 0
+	arg_max = 0
 	max = ScalarProduct(c,X[0])
 	for i in range(1, len(X)):
 		current = ScalarProduct(c, X[i])
 		if current > max:
 			max = current
-			j = i
+			arg_max = i
 	print max
-	print X[j]
+	print X[arg_max]
