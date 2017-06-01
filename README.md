@@ -1,4 +1,5 @@
-# OptymalizacjaI
+# Optymalizacja I
 Jakub Lepczyński
 
-rozwiązania zadań z optymalizacji I 
+zadanie 1 - problem hetmanów:
+https://github.com/jl359790/OptymalizacjaI/blob/master/lab2/hetmani.py
