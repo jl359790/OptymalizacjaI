@@ -1,0 +1,77 @@
+#problem komiwojażera
+#do wklejenia w glpk
+#http://hgourvest.github.io/glpk.js/
+#wierzchołki:
+#A---------B
+#|\       /|
+#| a-----b |
+#| |     | |
+#| d-----c |
+#|/       \|
+#D---------C
+
+
+Minimize
+obj: + 1 AD + 1 DA + 2 Aa + 2 aA + 3 AB + 3 BA + 2 Bb + 2 bB + 1 BC + 1 CB + 2 Cc + 2 cC + 3 CD + 3 DC + 2 Dd + 2 dD + 3 ab + 3 ba + 1 ad + 1 da + 1 bc + 1 cb + 3 cd + 3 dc
+
+Subject To
+ AD + Aa + AB = 1
+ DA + aA + BA = 1
+ BA + Bb + BC = 1
+ AB + bB + CB = 1
+ CB + Cc + CD = 1
+ BC + cC + DC = 1
+ DA + Dd + DC = 1
+ AD + dD + CD = 1
+ ab + aA + ad = 1
+ ba + Aa + da = 1
+ ba + bB + bc = 1
+ ab + Bb + cb = 1
+ cb + cC + cd = 1
+ bc + Cc + dc = 1
+ da + dc + dD = 1
+ ad + cd + Dd = 1
+
+AD  +  DA <= 1
+Aa  +  aA <= 1
+AB  +  BA <= 1
+Bb  +  bB <= 1
+BC  +  CB <= 1
+Cc  +  cC <= 1
+CD  +  DC <= 1
+Dd  +  dD <= 1
+ab  +  ba <= 1
+ad  +  da <= 1
+bc  +  cb <= 1
+cd  +  dc <= 1
+CD + DC + cd + dc + ab + ba + AB + BA >= 1
+
+Bounds
+
+Generals
+AD
+DA
+Aa
+aA
+AB
+BA
+Bb
+bB
+BC
+CB
+Cc
+cC
+CD
+DC
+Dd
+dD
+ab
+ba
+ad
+da
+bc
+cb
+cd
+dc
+
+End
