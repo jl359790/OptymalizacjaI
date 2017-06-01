@@ -1,3 +1,6 @@
+#wkleić do GLPK
+#http://hgourvest.github.io/glpk.js/
+
 Maximize
 obj: 57  Aq + 48  As + 95  Av + 87  Bq + 70  Bt + 96  Cr + 74  Cs + 60  Cu + 75  Dq + 81  Dt + 90  Dw + 55  Er + 75  Ew + 85  Fr + 26  Fu + 60  Fv + 64  Gs + 88  Gw
 
