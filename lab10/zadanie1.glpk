@@ -1,0 +1,60 @@
+Maximize
+obj: 57  Aq + 48  As + 95  Av + 87  Bq + 70  Bt + 96  Cr + 74  Cs + 60  Cu + 75  Dq + 81  Dt + 90  Dw + 55  Er + 75  Ew + 85  Fr + 26  Fu + 60  Fv + 64  Gs + 88  Gw
+
+Subject To
+Aq + As + Av = 1
+Bq + Bt = 1
+Cr + Cs + Cu = 1
+Dq + Dt + Dw = 1
+Er + Ew = 1
+Fr + Fu + Fv = 1
+Gs + Gw = 1
+Aq + Bq + Dq = 1
+Cr + Er + Fr = 1
+As + Cs + Gs = 1
+Bt + Dt = 1
+Cu + Fu = 1
+Av + Fv = 1
+Dw + Ew + Gw = 1
+
+Bounds
+0 <= Aq <= 1
+0 <= As <= 1
+0 <= Av <= 1
+0 <= Bq <= 1
+0 <= Bt <= 1
+0 <= Cr <= 1
+0 <= Cs <= 1
+0 <= Cu <= 1
+0 <= Dq <= 1
+0 <= Dt <= 1
+0 <= Dw <= 1
+0 <= Er <= 1
+0 <= Ew <= 1
+0 <= Fr <= 1
+0 <= Fu <= 1
+0 <= Fv <= 1
+0 <= Gs <= 1
+0 <= Gw <= 1
+
+Generals
+Aq
+As
+Av
+Bq
+Bt
+Cr
+Cs
+Cu
+Dq
+Dt
+Dw
+Er
+Ew
+Fr
+Fu
+Fv
+Gs
+Gw
+End
+
