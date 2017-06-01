@@ -1,4 +1,8 @@
 /* Oryginalny problem ze współczynnikami wektora c ustawionymi na 1
+
+Aq - krawędź między wierzchołkami A i q (brak kierunku)
+B - wierchołek B
+
 Maximize
 obj:  Aq + As + Av + Bq + Bt + Cr + Cs + Cu + Dq + Dt + Dw + Er + Ew + Fr + Fu + Fv + Gs + Gw
 
