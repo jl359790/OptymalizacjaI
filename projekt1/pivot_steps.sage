@@ -76,9 +76,9 @@ def smallest_objective_coefficient_entering(self):
 
     
     
-entering_functions = [lexicographical_min_entering, lexicographical_max_entering, random_entering, highest_objective_coefficient_entering, steepest_edge_entering, smallest_objective_coefficient_entering, lexicographical_max_entering, lexicographical_min_entering, random_entering, highest_objective_coefficient_entering, steepest_edge_entering, smallest_objective_coefficient_entering]
+entering_functions = [lexicographical_min_entering, lexicographical_max_entering, random_entering, highest_objective_coefficient_entering, steepest_edge_entering, smallest_objective_coefficient_entering, lexicographical_max_entering, lexicographical_min_entering, random_entering, highest_objective_coefficient_entering, steepest_edge_entering, smallest_objective_coefficient_entering, random_entering]
 
-leaving_functions = [lexicographical_min_leaving, lexicographical_max_leaving, random_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_max_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving]
+leaving_functions = [lexicographical_min_leaving, lexicographical_max_leaving, random_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_max_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_min_leaving, lexicographical_max_leaving]
 
 if not (len(entering_functions) == len(leaving_functions)):
     raise Exception("nr of entering functions != nr of leaving functions")
